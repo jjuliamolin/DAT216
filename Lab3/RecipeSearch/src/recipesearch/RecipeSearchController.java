@@ -180,6 +180,7 @@ public class RecipeSearchController implements Initializable {
     @FXML
     public void closeRecipeView() {
         searchPane.toFront();
+        detailedPane.toBack(); // Added since toFront didnt work
     }
 
     @FXML
@@ -206,6 +207,7 @@ public class RecipeSearchController implements Initializable {
                 "RecipeSearch/resources/icon_close.png")));
     }
 
+    @FXML
     public void openRecipeView(Recipe recipe) {
         populateRecipeDetailView(recipe);
         detailedPane.toFront();
