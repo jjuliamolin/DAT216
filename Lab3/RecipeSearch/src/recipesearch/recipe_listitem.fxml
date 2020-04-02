@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root onMouseClicked="#onClick" prefHeight="100.0" prefWidth="495.0" styleClass="recipe-list-item" stylesheets="@recipe_search.css" type="javafx.scene.layout.AnchorPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="recipeImage" fitHeight="100.0" fitWidth="100.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="339.0" AnchorPane.topAnchor="7.0">
+         <image>
+            <Image url="@../../recipes/recipe1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="recipeCuisine" fitHeight="16.0" fitWidth="200.0" layoutX="82.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resources/icon_flag_sweden.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="recipeLabel" layoutX="114.0" layoutY="8.0" styleClass="text-largest" text="Recept 15" AnchorPane.leftAnchor="114.0" />
+      <ImageView fx:id="recipeIngredient" fitHeight="16.0" fitWidth="200.0" layoutX="112.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="112.0">
+         <image>
+            <Image url="@resources/icon_main_chicken.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="recipeDiff" fitHeight="16.0" fitWidth="200.0" layoutX="130.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="130.0">
+         <image>
+            <Image url="@resources/icon_difficulty_hard.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="recipeTime" layoutX="218.0" layoutY="40.0" prefHeight="14.0" prefWidth="86.0" styleClass="text-smaller" text="30 minuter" AnchorPane.leftAnchor="217.0" AnchorPane.rightAnchor="192.0" />
+      <Label fx:id="recipeCost" layoutX="320.0" layoutY="40.0" prefHeight="14.0" prefWidth="56.0" styleClass="text-smaller" text="20 kr" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="121.0" />
+      <Label fx:id="recipeDesc" layoutX="113.0" layoutY="57.0" prefHeight="49.0" prefWidth="370.0" text="Lorem ipsum dasd opdq dqppewiqjoewioj ioqwgioqwgiwiq goiwqegoi wqigijwq gijoqwiojg wiqojgiowqegqweiogqLorem ipsum dasd opdq dqppewiqjoewioj ioqwgioqwgiwiq goiwqegoi wqigijwq gijoqwiojg wiqojgiowqegqweiogq" wrapText="true" AnchorPane.leftAnchor="113.0" AnchorPane.rightAnchor="12.0" />
+   </children>
+</fx:root>

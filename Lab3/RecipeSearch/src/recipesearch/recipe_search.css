@@ -1,0 +1,57 @@
+.text-normal,
+.text-smaller,
+.text-larger,
+.text-largest{
+     -fx-font-family: "Avenir Book";
+}
+
+.text-normal{
+    -fx-font-size: 13px;
+}
+
+.text-smaller{
+    -fx-font-size: 11px;
+}
+
+.text-larger{
+    -fx-font-size: 15px;
+}
+
+.text-largest{
+    -fx-font-size: 20px;
+}
+
+.recipe-list-item{
+    -fx-border-width: 1px;
+    -fx-border-color: #999999;
+    -fx-border-radius: 1px;
+    -fx-background-radius: 1px;
+}
+
+.recipe-list-item:hover{
+    -fx-background-color: #FCFCFC;
+}
+
+.recipe-list-item:pressed{
+    -fx-background-color: #D0D0D0;
+}
+
+#logo{
+    -fx-font-family: "Phosphate";
+    -fx-font-size: 48px;
+}
+
+#logo-twirl{
+    -fx-font-family: "SignPainter";
+    -fx-font-size: 64px;
+    -fx-text-fill: #FFAC33;
+    -fx-rotate: -20;
+}
+
+.text-area .content {
+   -fx-background-color: -fx-background;
+}
+
+.text-area  {
+    -fx-background-color: -fx-background;
+}
