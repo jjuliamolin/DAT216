@@ -28,7 +28,14 @@
             <Image url="@resources/icon_difficulty_hard.png" />
          </image>
       </ImageView>
-      <Label fx:id="recipeTime" layoutX="218.0" layoutY="40.0" prefHeight="14.0" prefWidth="86.0" styleClass="text-smaller" text="30 minuter" AnchorPane.leftAnchor="217.0" AnchorPane.rightAnchor="192.0" />
+      <Label fx:id="recipeTime" layoutX="218.0" layoutY="40.0" prefHeight="14.0" prefWidth="86.0" styleClass="text-smaller" text="30 minuter" AnchorPane.leftAnchor="217.0" AnchorPane.rightAnchor="192.0">
+         <graphic>
+            <ImageView fitHeight="16.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/icon_time.png" />
+               </image>
+            </ImageView>
+         </graphic></Label>
       <Label fx:id="recipeCost" layoutX="320.0" layoutY="40.0" prefHeight="14.0" prefWidth="56.0" styleClass="text-smaller" text="20 kr" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="121.0" />
       <Label fx:id="recipeDesc" layoutX="113.0" layoutY="57.0" prefHeight="49.0" prefWidth="370.0" text="Lorem ipsum dasd opdq dqppewiqjoewioj ioqwgioqwgiwiq goiwqegoi wqigijwq gijoqwiojg wiqojgiowqegqweiogqLorem ipsum dasd opdq dqppewiqjoewioj ioqwgioqwgiwiq goiwqegoi wqigijwq gijoqwiojg wiqojgiowqegqweiogq" wrapText="true" AnchorPane.leftAnchor="113.0" AnchorPane.rightAnchor="12.0" />
    </children>
