@@ -1,0 +1,8 @@
+Design:
+Ikoner - Vara mer tydligt med vad vissa ikoner innebär. Möjligtvis ha en tooltip. Detta är speciellt användbart för svårighetsgraden eller landet.
+Minimerad vy - Visa endast de sökträffar som har något med sökparametrarna att göra. Blir tydligare för användaren att veta när man inte längre tittar på t.ex. maträtter med kött i.
+
+Funktionalitet:
+Sökfunktion(namn, desc) - Kunna söka efter namn eller hitta sökord i beskrivningen
+Sökfunktion(ingredienser) - Kunna söka efter de ingredienser man har tillgängligt hemma. Skulle kunna anges i en lista där man kan lägga till ingredienser man har tillgängligt.
+Favoritmarkera - Kunna markera sina favoriter för att sedan återkomma till dessa lättare.

@@ -1,0 +1,8 @@
+Design:
+Pliancy/feedback - För att användaren lättare ska veta vilket item som klickas in så kan man ha hover & pressed designs på list-items.
+Ikoner - Ha med ikoner på de olika inputsen i sökfältet.
+list-items - Ha med kostnad, tid, svårighetsgrad etc på list-items
+
+Övrigt:
+Logga - ha med en logga i sökfältet, blir mer användarvänligt.
+Uttökad vy - Ha en komplett design på den uttökade vyn när man klickar på en maträtt(kommer i lab3).
